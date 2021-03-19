@@ -148,7 +148,7 @@ void load_image_done(int retval)
 #if defined(CONFIG_LOAD_NONE)
 		usart_puts("AT91Bootstrap completed. Can load application via JTAG and jump.\n");
 #else
-		usart_puts("Done to load image\n");
+		usart_puts("Done loading image\n");
 #endif
 	}
 	if (retval == -1) {
