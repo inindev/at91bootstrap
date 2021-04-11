@@ -1,3 +1,8 @@
 #
 # Config.in for the contributed drivers
 #
+config SDRSDRAM
+        bool
+        default n
+        help
+          Initialize SDR SDRAM controller

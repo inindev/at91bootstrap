@@ -1,0 +1,2 @@
+config BOARDNAME
+	default "rth9580wf01"	if RTH9580WF01
