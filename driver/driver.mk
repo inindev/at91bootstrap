@@ -19,7 +19,7 @@ COBJS-y				+= $(DRIVERS_SRC)/at91_rstc.o
 COBJS-$(CPU_HAS_L2CC)		+= $(DRIVERS_SRC)/lp310_l2cc.o
 
 COBJS-$(CONFIG_SDRAM)		+= $(DRIVERS_SRC)/sdramc.o
-COBJS-$(CONFIG_SDDRC)		+= $(DRIVERS_SRC)/sddrc.o
+#COBJS-$(CONFIG_SDDRC)		+= $(DRIVERS_SRC)/sddrc.o
 COBJS-$(CONFIG_DDRC)		+= $(DRIVERS_SRC)/ddramc.o
 
 COBJS-$(CONFIG_AT91_MCI)	+= $(DRIVERS_SRC)/at91_mci.o

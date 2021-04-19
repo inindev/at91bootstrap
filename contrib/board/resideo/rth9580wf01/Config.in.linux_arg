@@ -1,0 +1,2 @@
+config CONFIG_LINUX_KERNEL_ARG_STRING
+	default "mem=16M console=ttyS0,115200 earlyprintk root=/dev/mtdblk0p2 rw rootwait"

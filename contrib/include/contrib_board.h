@@ -57,4 +57,8 @@
 #include "sama5d3_linea.h"
 #endif
 
+#ifdef CONFIG_RTH9580WF01
+#include "rth9580wf01.h"
+#endif
+
 #endif

@@ -70,6 +70,16 @@ config	CONFIG_RAM_512MB
 endchoice
 
 choice
+	prompt "SDR-SDRAM device type"
+	depends on CONFIG_SDDRC
+	default CONFIG_SDRSDRAM
+
+config CONFIG_SDRSDRAM
+	bool "SDR-SDRAM"
+
+endchoice
+
+choice
 	prompt "DDR-SDRAM device type"
 	depends on CONFIG_DDRC
 	default CONFIG_DDR2

@@ -1,0 +1,7 @@
+CPPFLAGS += \
+	-DCONFIG_RTH9580WF01 \
+	-mcpu=arm926ej-s
+
+ASFLAGS += \
+	-DCONFIG_RTH9580WF01 \
+	-mcpu=arm926ej-s
