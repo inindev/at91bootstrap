@@ -67,6 +67,9 @@ choice
 config	RAM_8MB
 	bool "8 MB"
 
+config	RAM_16MB
+	bool "16 MB"
+
 config	RAM_32MB
 	bool "32 MB"
 

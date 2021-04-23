@@ -42,6 +42,11 @@ CPPFLAGS += \
 	-DMEM_SIZE=0x2000000
 endif
 
+ifeq ($(CONFIG_RAM_16MB), y)
+CPPFLAGS += \
+	-DMEM_SIZE=0x1000000
+endif
+
 ifeq ($(CONFIG_RAM_8MB), y)
 CPPFLAGS += \
 	-DMEM_SIZE=0x800000
